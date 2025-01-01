@@ -68,7 +68,11 @@ header{
     text-align: center;
     width: 100%;
     padding: 10px 0px;
-    background-color: #333;
+    background: url(./panorama-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
     color: #24ff81;
 }
 
@@ -146,8 +150,8 @@ header{
 }
 
 .location{
-    background-color: #76fdaebe;
-    color: #333;
+    background-color: #333;
+    color: #24ff81;
 }
 
 .location .section-inner{
@@ -160,6 +164,7 @@ header{
 /* Social Media Style */
 
 .social-media{
+    border-top:  1px solid #129448;
     background-color: #333;
     color: #24ff81;
 }
@@ -186,7 +191,11 @@ header{
 footer{
     margin: 0;
     padding: 50px 0px 10px 0px;
-    background-color: #76fdaebe;
+    background: url(./Oficerski-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 2fr;
@@ -225,7 +234,7 @@ footer ul{
 .footer-desc{
     margin: 0;
     margin-top: 20px;
-    color: #333;
+    color: #24ff81;
 }
 
 .footer-desc p:hover{
